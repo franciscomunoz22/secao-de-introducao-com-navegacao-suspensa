@@ -1,0 +1,13 @@
+@import url(navegacao.css);
+
+:root {
+    --quase-branco: hsl(0, 0%, 98%);
+    --cinza-medio: hsl(0, 0%, 41%);
+    --quase-preto: hsl(0, 0%, 8%);
+
+    --fonte-principal: 'Epilogue', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
