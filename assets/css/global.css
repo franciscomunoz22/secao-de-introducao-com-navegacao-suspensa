@@ -1,13 +1,16 @@
 @import url(navegacao.css);
+@import url(conteudo.css);
 
 :root {
-    --quase-branco: hsl(0, 0%, 98%);
-    --cinza-medio: hsl(0, 0%, 41%);
-    --quase-preto: hsl(0, 0%, 8%);
+    --quase-branco: #fafafa;
+    --cinza-medio: #696969;
+    --preto: #000000;
+    --branco: #ffffff;
 
     --fonte-principal: 'Epilogue', sans-serif;
 }
 
 body {
+    background-color: var(--quase-branco);
     font-family: var(--fonte-principal);
 }

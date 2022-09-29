@@ -1,26 +1,28 @@
-.nav-lista a {
-    color: var(--cinza-medio);
-    display: block;
-    padding: .2em 3em 1em 0em;
-    text-decoration: none;
-    margin-top: .75em;
-}
-
-.nav-lista a:hover {
-    color: var(--quase-preto);
-}
-
 .nav-lista {
     margin: 1.5em 2.5em;
 }
 
+.nav-lista a {
+    color: var(--cinza-medio);
+    display: block;
+    text-decoration: none;
+}
+
+.nav-lista a:hover {
+    color: var(--preto);
+}
+
 .nav-item {
     float: left;
+    padding: 1em 0;
 }
 
 .nav-logo {
     margin-right: 4em;
-    margin-top: .8em;
+}
+
+.nav-features {
+    margin-right: 2em;
 }
 
 .nav-features::after {
@@ -28,13 +30,41 @@
     margin-left: .3em;
 }
 
+.features-list {
+    display: none;
+    background-color: var(--branco);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px rgba(94, 92, 92, 0.116);
+    margin-top: 1.2em;
+    padding: 1.5em;
+    position: absolute;
+}
+
+.nav-company {
+    margin-right: 2em;
+}
+
 .nav-company::after {
     content: url(../img/icon-arrow-down.svg);
     margin-left: .3em;
 }
 
-.features-list, .company-list {
+.company-list {
     display: none;
+    background-color: var(--branco);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px rgba(94, 92, 92, 0.116);
+    margin-top: 1.2em;
+    padding: .5em 1.5em;
+    position: absolute;
+}
+
+.company-list a {
+    margin: 1em 0;
+}
+
+.nav-careers {
+    margin-right: 2em;
 }
 
 .nav-button {
@@ -57,7 +87,7 @@
 }
 
 .login-button a:hover {
-    color: var(--quase-preto);
+    color: var(--preto);
 }
 
 .register-button {
@@ -67,6 +97,11 @@
     margin-right: 3em;
     padding: .8em 1.3em;
     text-decoration: none;
+}
+
+.register-button:hover {
+    border: 2px solid var(--preto);
+    color: var(--preto);
 }
 
 
