@@ -36,12 +36,33 @@
     border-radius: 10px;
     box-shadow: 0px 0px 20px 2px rgba(94, 92, 92, 0.116);
     margin-top: 1.2em;
-    padding: 1.5em;
+    padding: 0 1.5em;
     position: absolute;
+    margin-right: 2em;
 }
 
-.nav-company {
-    margin-right: 2em;
+.features-list a {
+    margin: 1.5em 0;
+}
+
+.list-icon::before {
+    content: url(../img/icon-todo.svg);
+    margin-right: 1em;
+}
+
+.calendar-icon::before {
+    content: url(../img/icon-calendar.svg);
+    margin-right: 1em;
+}
+
+.reminders-icon::before {
+    content: url(../img/icon-reminders.svg);
+    margin-right: 1em;
+}
+
+.planning-icon::before {
+    content: url(../img/icon-planning.svg);
+    margin-right: 1em;
 }
 
 .nav-company::after {
@@ -63,7 +84,7 @@
     margin: 1em 0;
 }
 
-.nav-careers {
+.nav-careers, .nav-company {
     margin-right: 2em;
 }
 
@@ -103,6 +124,3 @@
     border: 2px solid var(--preto);
     color: var(--preto);
 }
-
-
-

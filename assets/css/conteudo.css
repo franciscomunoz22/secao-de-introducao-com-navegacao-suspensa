@@ -1,13 +1,13 @@
 main {
     width: 100%;
-    height: 90%;
 }
 
 .conteudo {
-    align-items: center;
+    align-items: flex-end;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 4em;
+    margin-left: 1em;
+    margin-top: 5em;
 }
 
 .conteudo-container {
@@ -21,25 +21,38 @@ main {
 
 .conteudo-descricao {
     color: var(--cinza-medio);
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5em;
-    margin: 3em 5em 3em 0em;
+    margin: 3em 5em 4em 0em;
 }
 
 .conteudo-link {
+    background-color: var(--preto);
+    border-radius: 15px;
+    color: var(--branco);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1em 2em;
+    text-decoration: none;
+}
 
+.conteudo-link:hover {
+    color: var(--preto);
+    background-color: transparent;
+    border: 1px solid var(--preto);
 }
 
 .conteudo-lista {
-    display: flex;
     align-items: center;
-    position: relative;
+    display: flex;
+    margin-left: -1.5em;
+    margin-top: 8em;
 }
 
 .conteudo-lista li {
-    margin-right: 2.5em;
+    margin: 0 1.5em;
 }
 
 .conteudo-imagem {
-    width: 500px;
+    width: 530px;
 }
