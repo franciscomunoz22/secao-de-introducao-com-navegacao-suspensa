@@ -124,3 +124,33 @@
     border: 2px solid var(--preto);
     color: var(--preto);
 }
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    .nav-item {
+        display: none;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+}
