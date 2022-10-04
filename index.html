@@ -43,39 +43,23 @@
                 <button class="login-button"><a href="#">Login</a></button>
                 <a class="register-button" href="#">Register</a>
             </div>
-
             <div class="mobile-menu-icon">
-                <button><img class="menu-icon" src="assets/img/icon-menu.svg"></button>
+                <button onclick="menuShow()"><img src="assets/img/icon-menu.svg"></button>
             </div>
-            <div class="mobile-menu">
-                <ul class="nav-lista">
-                    <li class="nav-item"><img class="nav-logo" src="assets/img/logo.svg" alt="Logo escrito snap em cor preta"></li>
-                    <li class="nav-item">
-                        <a href="javascript://" class="nav-features">Features</a>
-                        <ul class="features-list">
-                            <li><a class="list-icon" href="#">Todo List</a></li>
-                            <li><a class="calendar-icon" href="#">Calendar</a></li>
-                            <li><a class="reminders-icon" href="#">Reminders</a></li>
-                            <li><a class="planning-icon" href="#">Planning</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a href="javascript://" class="nav-company">Company</a>
-                        <ul class="company-list">
-                            <li><a href="#">History</a></li>
-                            <li><a href="#">Our team</a></li>
-                            <li><a href="#">Blog</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item nav-careers"><a href="#">Careers</a></li>
-                    <li class="nav-item"><a href="#">About</a></li>
-                </ul>
-                <div class="nav-button">
+        </nav>
+        <img class="nav-logo-mobile" src="assets/img/logo.svg" alt="Logo escrito snap em cor preta">
+        <div class="mobile-menu">
+            <ul class="nav-lista-mobile">
+                <li class="nav-item"><a href="javascript://" class="nav-features">Features</a></li>
+                <li class="nav-item"><a href="javascript://" class="nav-company">Company</a></li>
+                <li class="nav-item nav-careers"><a href="#">Careers</a></li>
+                <li class="nav-item"><a href="#">About</a></li>
+                <div class="nav-button-mobile">
                     <button class="login-button"><a href="#">Login</a></button>
                     <a class="register-button" href="#">Register</a>
                 </div>
-            </div>
-        </nav>
+            </ul>
+        </div>
     </header>
     <main class="conteudo">
         <div class="conteudo-container">
@@ -99,6 +83,7 @@
             <img class="conteudo-imagem-mobile" src="assets/img/image-hero-mobile.png" alt="Um homem com um notebook aberto">
         </div>
     </main>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
 
