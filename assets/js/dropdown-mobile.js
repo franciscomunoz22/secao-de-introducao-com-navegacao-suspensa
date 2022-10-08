@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var botao = $('.nav-features');
-    var dropDown = $('.features-list');    
+    var dropDown = $('.features-list-mobile');    
    
        botao.on('click', function(event){
            dropDown.stop(true,true).slideToggle();
@@ -10,7 +10,7 @@ $(document).ready(function() {
 
    $(document).ready(function() {
     var botao = $('.nav-company');
-    var dropDown = $('.company-list');    
+    var dropDown = $('.company-list-mobile');    
    
        botao.on('click', function(event){
            dropDown.stop(true,true).slideToggle();
